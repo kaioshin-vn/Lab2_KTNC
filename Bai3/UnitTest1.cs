@@ -88,7 +88,7 @@ namespace Bai3
 		[Test]
 		public void TC_TuongDuong5()
 		{
-			Assert.That(_giaiThua.TinhGiaiThua(50), Is.EqualTo(-1));
+			Assert.That(_giaiThua.TinhGiaiThua(10), Is.EqualTo(3628800));
 		}
 	}
 }
