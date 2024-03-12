@@ -1,5 +1,6 @@
 namespace Bai3
 {
+    
     public class Tests
     {
         [SetUp]
