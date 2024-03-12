@@ -4,15 +4,6 @@ namespace Bai2
     {
         public int tinhTich(int a, int b)
         {
-            if(a == int.MinValue || b == int.MinValue)
-            {
-                return 0;
-            }
-            if (a == int.MaxValue || b == int.MaxValue)
-            {
-                if(a != 0 && a != 1 || b != 0 && b != 1)
-                return 0;
-            }
             return a * b;
         }
     }
